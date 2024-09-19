@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="input-group">
+            <input type="text" id="input1" placeholder="Digite um número">
+            <select id="operation">
+                <option value="add">Somar</option>
+                <option value="subtract">Subtrair</option>
+                <option value="multiply">Multiplicar</option>
+                <option value="divide">Dividir</option>
+            </select>
+            <input type="text" id="input2" placeholder="Digite um número">
+        </div>
+        <button onclick="performCalculation()">Confirmar</button>
+        <div id="result">Resultado:</div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
